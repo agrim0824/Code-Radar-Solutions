@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
-    scanf("%d",&num);
+    scanf("%d",&n);
     int not_prime = 0;
     if((n==1)||(n==0)){
         not_prime = 1;
