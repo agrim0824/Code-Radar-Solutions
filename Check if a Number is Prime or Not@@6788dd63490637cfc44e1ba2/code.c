@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    int num;
-    scanf("%d",&d);
+    int n;
+    scanf("%d",&num);
     int not_prime = 0;
-    if((num==1)||(num==0)){
+    if((n==1)||(n==0)){
         not_prime = 1;
     }
     else{
