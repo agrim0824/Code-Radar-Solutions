@@ -11,8 +11,5 @@ int main(){
     else if(n!=1){
         printf("Not Eligible");
     }
-    else{
-        printf("Not Eligible");
-    }
     return 0;
 }
