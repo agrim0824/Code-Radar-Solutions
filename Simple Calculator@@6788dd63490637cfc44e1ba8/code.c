@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    double num1,num2,res;
+    int num1,num2,res;
     char operation;
-    scanf("%lf %lf %c",&num1,&num2,&operation);
+    scanf("%d %d %c",&num1,&num2,&operation);
     switch(operation){
         case '+':
         res = num1 + num2;
@@ -24,6 +24,6 @@ int main(){
         printf("Error");
         return 1;
     }
-    printf("%.2lf",res);
+    printf("%d",res);
     return 0;
 }
