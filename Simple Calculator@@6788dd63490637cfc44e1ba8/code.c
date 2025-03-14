@@ -15,13 +15,13 @@ int main(){
         break;
         case '/':
         if (num2==0){
-            printf("Error");
+            printf("error");
             return 1;
         }
         res = num1 / num2;
         break;
         default:
-        printf("Error");
+        printf("error");
         return 1;
     }
     printf("%d",res);
