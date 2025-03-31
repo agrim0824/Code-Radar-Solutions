@@ -23,7 +23,6 @@ int main() {
         }
     }
 
-    printf("Element Frequency\n");
     for (i = 0; i < n; i++) {
         if (freq[i] != 0) {
             printf("%d %d\n", arr[i], freq[i]); // Output each unique element and its frequency
