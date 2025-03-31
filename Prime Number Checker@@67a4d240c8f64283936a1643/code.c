@@ -1,3 +1,4 @@
+#include<stdio.h>
 int isPrime(int a);
 int isPrime(int n){
     int i, count = 0;
