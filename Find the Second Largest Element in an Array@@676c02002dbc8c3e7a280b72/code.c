@@ -5,7 +5,6 @@ int main() {
     int n, i;
 
     // Input the number of elements in the array
-    printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     // If the array size is less than 2, output -1
@@ -15,7 +14,6 @@ int main() {
     }
 
     int arr[n];
-    printf("Enter the array elements: ");
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -37,7 +35,7 @@ int main() {
     if (second_largest == INT_MIN) {
         printf("-1\n");
     } else {
-        printf("Second largest element: %d\n", second_largest);
+        printf("%d\n", second_largest);
     }
 
     return 0;
